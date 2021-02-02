@@ -19,7 +19,7 @@
                             -->セキュリティを考慮して、入力フォームの検証をVue.jsのみではなく、PHPでも実施しています。
                         </p>
                         <button class="button" type="button">
-                            <a href="https://github.com/uta1314/portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/uta1314/portfolio/" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </button>
                     </li>
                 </fade-in>
@@ -39,7 +39,7 @@
                             -->Vuexやaxiosについて学ぶ良い機会になりました。
                         </p>
                         <button class="button" type="button">
-                            <a href="https://github.com/uta1314/typing" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/uta1314/typing/" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </button>
                         <p class="work-note">PCでのみプレイ可能です</p>
                     </li>
@@ -47,7 +47,7 @@
                 <fade-in>
                     <li class="work-item">
                         <div class="work-image">
-                            <a href="/" target="_blank" rel="noopener noreferrer">
+                            <a href="http://yuta-web.com/works/rpg/" target="_blank" rel="noopener noreferrer">
                                 <img :src="workImage3" alt="作品画像3">
                             </a>
                         </div>
@@ -65,6 +65,28 @@
                             <a href="https://github.com/uta1314/RPG" target="_blank" rel="noopener noreferrer">GitHub</a>
                         </button>
                         <p class="work-note">PCでのみプレイ可能です</p>
+                    </li>
+                </fade-in>
+                <fade-in>
+                    <li class="work-item">
+                        <div class="work-image">
+                            <a href="http://yuta-web.com/works/santango/public/" target="_blank" rel="noopener noreferrer">
+                                <img :src="workImage4" alt="作品画像4">
+                            </a>
+                        </div>
+                        <p class="work-title">3単語</p>
+                        <p class="work-language">HTML5 / CSS / PHP</p>
+                        <p class="work-description">
+                            毎日1つのお題と、3つの単語が与えられます。<!--
+                            -->与えられた3つの単語を駆使して、お題を解決していくアプリです。<!--
+                            -->投稿機能によって、発想力を鍛えながら、お互いのアイデアを共有することができます。<!--
+                            -->制作するうえで苦労したのは、1日ごとにランダムな3つの単語を取得する処理です。<!--
+                            -->データースとMediaWiki APIを利用することによって実現することができました。<!--
+                            -->初めてのPHPの作品だったので、苦労することは多かったですが、データベースやAPIなど多くのことを学ぶことができました。
+                        </p>
+                        <button class="button" type="button">
+                            <a href="https://github.com/uta1314/santango" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </button>
                     </li>
                 </fade-in>
             </ul>
@@ -85,6 +107,7 @@ export default {
             workImage1: require('@/assets/img/work1.png'),
             workImage2: require('@/assets/img/work2.png'),
             workImage3: require('@/assets/img/work3.png'),
+            workImage4: require('@/assets/img/work4.png'),
         }
     }
 }
