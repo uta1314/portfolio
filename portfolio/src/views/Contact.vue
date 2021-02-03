@@ -113,7 +113,6 @@ export default {
                 .catch((error) => {
                     this.setClass = [];
                     this.connection = '送信に失敗しました。申し訳ございませんが、時間をおいてからもう一度、送信をお願いいたします。';
-                    console.log(error);
                 })
             } else {
                 this.connection = '送信できませんでした。入力内容の確認をお願いいたします。';
