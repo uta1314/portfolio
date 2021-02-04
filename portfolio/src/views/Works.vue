@@ -204,7 +204,7 @@ export default {
     .fade:nth-child(2n) {
         margin-right: 0;
     }
-    .fade:nth-child(n + 4) {
+    .fade:nth-child(n + 5) {
         margin-bottom: 0;
     }
     /* レスポンシブ */
@@ -228,6 +228,9 @@ export default {
             .fade {
                 width: 100%;
                 margin-right: 0;
+            }
+            .fade:nth-child(n + 4) {
+                margin-bottom: 0;
             }
             /* スマートフォン */
             @media screen and (max-width: 480px) {
