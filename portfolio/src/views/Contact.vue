@@ -56,7 +56,7 @@ export default {
             textBox: '',
             inputData: false,
             makeSure: true,
-            postUrl: 'http://webfantasy.stars.ne.jp/php/Mail.php',
+            postUrl: 'http://yuta-web.com/php/Mail.php',
             connection: '',
             setClass: []
         }
