@@ -204,7 +204,7 @@ export default {
     .fade:nth-child(2n) {
         margin-right: 0;
     }
-    .fade:nth-child(n + 3) {
+    .fade:nth-child(n + 4) {
         margin-bottom: 0;
     }
     /* レスポンシブ */
