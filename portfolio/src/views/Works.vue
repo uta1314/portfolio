@@ -47,7 +47,7 @@
                 <fade-in>
                     <li class="work-item">
                         <div class="work-image">
-                            <a href="http://yuta-web.com/works/rpg/" target="_blank" rel="noopener noreferrer">
+                            <a href="http://yuta-web.com/all_works/rpg/" target="_blank" rel="noopener noreferrer">
                                 <img :src="workImage3" alt="作品画像3">
                             </a>
                         </div>
@@ -70,7 +70,7 @@
                 <fade-in>
                     <li class="work-item">
                         <div class="work-image">
-                            <a href="http://yuta-web.com/works/santango/public/" target="_blank" rel="noopener noreferrer">
+                            <a href="http://yuta-web.com/all_works/santango/public/" target="_blank" rel="noopener noreferrer">
                                 <img :src="workImage4" alt="作品画像4">
                             </a>
                         </div>
