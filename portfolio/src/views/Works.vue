@@ -13,10 +13,15 @@
                         <p class="work-title">ポートフォリオ</p>
                         <p class="work-language">HTML5 / CSS3 / Vue.js / PHP</p>
                         <p class="work-description">
-                            自己紹介のためのサイトです。<!--
-                            -->Vue Routerを使ってSPAを作ってみたいと思い、制作しました。<!--
-                            -->こだわったポイントはcontactページです。<!--
-                            -->セキュリティを考慮して、入力フォームの検証をVue.jsのみではなく、PHPでも実施しています。
+                            <span>【概要】</span>
+                            現在の自分のスキルや作品を分かりやすくまとめたものです。
+                            <span>【制作理由】</span>
+                            私の現在の状況を知ってもらうために制作しました。
+                            <span>【苦労したこと】</span>
+                            Top画面での風船が飛ぶアニメーションの実装に苦労しました。<!--
+                            -->乱数を利用して毎回異なる座標に風船が出現するように実装しました。
+                            <span>【工夫点】</span>
+                            画像を圧縮して利用することにより、ページの表示速度を向上させています。
                         </p>
                         <button class="button" type="button">
                             <a href="https://github.com/uta1314/portfolio/" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -33,10 +38,16 @@
                         <p class="work-title">タイピングゲーム</p>
                         <p class="work-language">HTML5 / CSS3 / Vue.js / PHP</p>
                         <p class="work-description">
-                            モンスターを倒したタイムを競うゲームです。<!--
-                            -->プログラミングを学んで行くうちに、自分でも何かゲームが作れるのではないかと考え制作しました。<!--
-                            -->そして、私が得意だったこともありタイピングゲームの制作に取り組みました。<!--
-                            -->Vuexやaxiosについて学ぶ良い機会になりました。
+                            <span>【概要】</span>
+                            タイピングでモンスターを倒したタイムを競うゲームです。
+                            <span>【制作理由】</span>
+                            ゲーム感覚でタイピングを楽しみながら練習して欲しいと思い制作しました。
+                            <span>【苦労したこと】</span>
+                            axiosを使ったPHPとの通信で、思うような結果が出ずに苦労しました。<!--
+                            -->原因は、URLSearchParamsを使って送信しなくてはならないことでした。<!--
+                            -->このことは、マニュアルに記述されていたことだったので、自分の読み込みの浅さを痛感させられる経験でした。
+                            <span>【工夫点】</span>
+                            モンスターのHPをwatchプロパティで監視することにより、途中でモンスターの画像が切り替わる演出をしています。
                         </p>
                         <button class="button" type="button">
                             <a href="https://github.com/uta1314/typing/" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -47,42 +58,26 @@
                 <fade-in>
                     <li class="work-item">
                         <div class="work-image">
-                            <a href="http://yuta-web.com/all_works/rpg/" target="_blank" rel="noopener noreferrer">
-                                <img :src="workImage3" alt="作品画像3">
-                            </a>
-                        </div>
-                        <p class="work-title">RPG</p>
-                        <p class="work-language">HTML5 / JavaScript</p>
-                        <p class="work-description">
-                            ポケモン風のRPGです。<!--
-                            -->CanvasとJavaScriptを使い制作しました。<!--
-                            -->RPGの作り方をyoutubeで見て、自分なりのRPGを作ってみたいと思い、夏休みのほとんどを使い制作しました。<!--
-                            -->友人達をゲームに登場させ、オリジナルのストーリーも考えました。<!--
-                            -->しかし、クソゲー認定されてしまいました(笑)。<!--
-                            -->人を楽しませるものを作るのは難しいなと、考えさせられる経験でした。
-                        </p>
-                        <button class="button" type="button">
-                            <a href="https://github.com/uta1314/RPG" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        </button>
-                        <p class="work-note">PCでのみプレイ可能です</p>
-                    </li>
-                </fade-in>
-                <fade-in>
-                    <li class="work-item">
-                        <div class="work-image">
                             <a href="http://yuta-web.com/all_works/santango/public/" target="_blank" rel="noopener noreferrer">
-                                <img :src="workImage4" alt="作品画像4">
+                                <img :src="workImage3" alt="作品画像3">
                             </a>
                         </div>
                         <p class="work-title">3単語</p>
                         <p class="work-language">HTML5 / CSS / PHP</p>
                         <p class="work-description">
-                            毎日1つのお題と、3つの単語が与えられます。<!--
-                            -->与えられた3つの単語を駆使して、お題を解決していくアプリです。<!--
-                            -->投稿機能によって、発想力を鍛えながら、お互いのアイデアを共有することができます。<!--
-                            -->制作するうえで苦労したのは、1日ごとにランダムな3つの単語を取得する処理です。<!--
-                            -->データースとMediaWiki APIを利用することによって実現することができました。<!--
-                            -->初めてのPHPの作品だったので、苦労することは多かったですが、データベースやAPIなど多くのことを学ぶことができました。
+                            ※ ログインの際はユーザー名「root」<br />
+                            パスワード「12345678」を使用してみてください。
+                            <span>【概要】</span>
+                            毎日１つのお題と、３つの単語が与えられます。<!--
+                            -->与えられた３つの単語を駆使して、お題を解決するアプリです。<!--
+                            -->投稿機能によって、お互いのアイデアを共有することができます。
+                            <span>【制作理由】</span>
+                            新しいアイデアを生み出したい方が発想力を鍛えながら、お互いのアイデアを共有して欲しいと思い制作しました。
+                            <span>【苦労したこと】</span>
+                            ランダムな単語を取得するのに苦労しました。<!--
+                            -->多数の単語の中からランダムに単語を取得できるようにMediaWikiを使用することで実装しました。
+                            <span>【工夫点】</span>
+                            ユーザー名を「root」でパスワードに「12345678」を使用してログインすることで管理者ページへ移動することができる機能を実装しました。
                         </p>
                         <button class="button" type="button">
                             <a href="https://github.com/uta1314/santango" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -107,7 +102,6 @@ export default {
             workImage1: require('@/assets/img/work1.png'),
             workImage2: require('@/assets/img/work2.png'),
             workImage3: require('@/assets/img/work3.png'),
-            workImage4: require('@/assets/img/work4.png'),
         }
     }
 }
@@ -166,6 +160,11 @@ export default {
         padding: 0 20px 0;
         overflow-y: auto;
     }
+    .work-description span {
+        display: block;
+        font-weight: bold;
+        margin: 15px 0 10px;
+    }
     .work-note {
         position: absolute;
         bottom: 10px;
@@ -204,7 +203,7 @@ export default {
     .fade:nth-child(2n) {
         margin-right: 0;
     }
-    .fade:nth-child(n + 5) {
+    .fade:nth-child(n + 3) {
         margin-bottom: 0;
     }
     /* レスポンシブ */
