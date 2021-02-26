@@ -12,7 +12,12 @@
                         <p class="name">田上 優太</p>
                         <p class="birth">生年月日：2000年 12月 12日</p>
                         <p class="age">年齢：20歳</p>
-                        <p class="description">授業でJavaScript(jQuery)を学んだことがきっかけでwebアプリケーションに興味を持ちました。現在はphpの勉強に取り組んでおりバックエンドエンジニアを目指しています</p>
+                        <p class="description">
+                            １年生の頃に、HTMLとCSSを学び自分で一からWebページを作ったことが切っ掛けでWebエンジニアを目指すようになりました。<!--
+                            -->エンジニアとして活躍できる人材になるために、独学での学習にも取り組んでいます。<!--
+                            -->現在は、開発作業を効率的に行えるようになるために、Laravelを学習しています。<!--
+                            -->資格は、基本情報技術者試験の資格を取得しています。
+                        </p>
                     </div>
                 </div>
             </fade-in>
@@ -27,7 +32,7 @@
                             </div>
                             <p class="skill-name">HTML5</p>
                             <p class="skill-description">
-                                Progateや本で基礎を学びました。その後、模写コーディングに取り組みました。
+                                Progateや書籍で基礎を学び、模写コーディングに取り組みました。
                             </p>
                         </li>
                         <li class="skill-item">
@@ -36,7 +41,7 @@
                             </div>
                             <p class="skill-name">CSS3</p>
                             <p class="skill-description">
-                                Progateや本で基礎を学びました。その後、模写コーディングに取り組みました。
+                                Progateや書籍で基礎を学び、模写コーディングに取り組みました。
                             </p>
                         </li>
                         <li class="skill-item">
@@ -45,7 +50,7 @@
                             </div>
                             <p class="skill-name">JavaScript</p>
                             <p class="skill-description">
-                                Webサイトに色々な動きを付けたいと思い学びました。
+                                動画や書籍で基礎を学び、RPGなどを制作しました。
                             </p>
                         </li>
                         <li class="skill-item">
@@ -54,7 +59,7 @@
                             </div>
                             <p class="skill-name">PHP</p>
                             <p class="skill-description">
-                                本で基礎を学び、お問い合わせフォームや、ランキングなどを作りました。
+                                書籍で基礎を学び、お問い合わせフォームや、ランキングなどを制作しました。
                             </p>
                         </li>
                         <li class="skill-item">
@@ -63,7 +68,7 @@
                             </div>
                             <p class="skill-name">Java</p>
                             <p class="skill-description">
-                                授業で扱っていた言語です。オブジェクト指向について学習しました。
+                                授業で扱っている言語です。オブジェクト指向について学びました。
                             </p>
                         </li>
                     </ul>
@@ -75,7 +80,7 @@
                             </div>
                             <p class="skill-name">Vue.js</p>
                             <p class="skill-description">
-                                コンポーネント機能やディレクティブ機能で、開発を容易に高速化できるところに魅力を感じ学習しました。
+                                書籍で基礎を学び、このポートフォリオや、タイピングゲームなどを制作しました。
                             </p>
                         </li>
                     </ul>
