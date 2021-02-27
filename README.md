@@ -2,7 +2,7 @@
 
 **【制作物】**
 
-[portfolio]: http://yuta-web/com
+[portfolio]: http://yuta-web.com
 [ポートフォリオ][portfolio]
 
 **【概要】**
